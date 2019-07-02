@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Onnela</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/brands.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-menu">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar icon-bar-1"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand header-logo" id="logo-scroll-hide" href="#">
+            <img src="imgs/header-logo.png" alt="Logo">
+          </a>
+
+          <a class="navbar-brand header-logo logo-scroll" id="logo-scroll-show" href="#">
+            <img src="imgs/logo-scroll.png" alt="Logo">
+          </a>
+
+          <button type="button" class="btn btn-link btn-search" data-toggle="collapse" data-target="#navbar-collapse-search">
+            <img src="imgs/search-mob.png" alt="Search">
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-collapse-menu" id="navbar-collapse-menu">
+          <ul class="nav navbar-nav">
+            <li><a href="#">家事</a>
+              <ul class="sub-nav">
+                <li class="nav-item"><a class="nav-link" href="#">掃除</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">洗濯</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">料理</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">片付け</a></li>
+              </ul>
+            </li>
+            <li class="divider"></li>
+            <li><a href="#">インテリア</a>
+              <ul class="sub-nav">
+                <li class="nav-item"><a class="nav-link" href="#">掃除</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">洗濯</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">料理</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">片付け</a></li>
+              </ul>
+            </li>
+            <li class="divider"></li>
+            <li><a href="#">収納</a>
+              <ul class="sub-nav">
+                <li class="nav-item"><a class="nav-link" href="#">掃除</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">洗濯</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">料理</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">片付け</a></li>
+              </ul>
+            </li>
+            <li class="divider"></li>
+            <li><a href="#">動画</a>
+              <ul class="sub-nav">
+                <li class="nav-item"><a class="nav-link" href="#">掃除</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">洗濯</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">料理</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">片付け</a></li>
+              </ul>
+            </li>
+            <li class="divider"></li>
+            <li><a href="#">新カテゴリ</a>
+              <ul class="sub-nav">
+                <li class="nav-item"><a class="nav-link" href="#">掃除</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">洗濯</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">料理</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">片付け</a></li>
+              </ul>
+            </li>
+            <li class="divider"></li>
+            <li><a href="#">新カテゴリ</a>
+              <ul class="sub-nav">
+                <li class="nav-item"><a class="nav-link" href="#">掃除</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">洗濯</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">料理</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">片付け</a></li>
+              </ul>
+            </li>
+            <li class="divider"></li>
+            <li><a href="#">新カテゴリ</a>
+              <ul class="sub-nav">
+                <li class="nav-item"><a class="nav-link" href="#">掃除</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">洗濯</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">料理</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">片付け</a></li>
+              </ul>
+            </li>
+          </ul>
+          <button class="button-close" type="button" data-toggle="collapse" data-target="#navbar-collapse-menu">
+            <div class="navbar-close"></div>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-collapse-search" id="navbar-collapse-search">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="気になるワードを入力">
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <div class="promo">
+      <div class="container">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+          </ol>
+          
+          <div class="carousel-inner" role="listbox">
+            
+            <div class="item active">
+              <img class="carousel-img-mobile" src="imgs/carousel-xs.png" alt="cozy-house">
+              <img class="carousel-img-desktop" src="imgs/carousel-md.png" alt="cozy-house">
+              <div class="carousel-caption">
+                <span class="carousel-caption-number">2020.00.00</span>
+                <span class="carousel-caption-txt">典型的なダミーテキスト32px</span>
+                <span class="carousel-caption-txt carousel-caption-txt-16px">正式な文章の出来上がっていないテキスト部分の書体（フォント）、タイポグラフィ、レイアウトなどといった視覚的なデザインを調整したりわかりやすく見せるために用いられる16px</span>
+              </div>
+            </div>
+            
+            <div class="item">
+              <img class="carousel-img-mobile" src="imgs/carousel-xs.png" alt="cozy-house">
+              <img class="carousel-img-desktop" src="imgs/carousel-md.png" alt="cozy-house">
+              <div class="carousel-caption">
+                <span class="carousel-caption-number">2020.00.00</span>
+                <span class="carousel-caption-txt">典型的なダミーテキスト32px</span>
+                <span class="carousel-caption-txt carousel-caption-txt-16px">正式な文章の出来上がっていないテキスト部分の書体（フォント）、タイポグラフィ、レイアウトなどといった視覚的なデザインを調整したりわかりやすく見せるために用いられる16px</span>
+              </div>
+            </div>
+            
+            <div class="item">
+              <img class="carousel-img-mobile" src="imgs/carousel-xs.png" alt="cozy-house">
+              <img class="carousel-img-desktop" src="imgs/carousel-md.png" alt="cozy-house">
+              <div class="carousel-caption">
+                <span class="carousel-caption-number">2020.00.00</span>
+                <span class="carousel-caption-txt">典型的なダミーテキスト32px</span>
+                <span class="carousel-caption-txt carousel-caption-txt-16px">正式な文章の出来上がっていないテキスト部分の書体（フォント）、タイポグラフィ、レイアウトなどといった視覚的なデザインを調整したりわかりやすく見せるために用いられる16px</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="main-list">
+        <li><a href="#">家事</a>
+          <ul class="main-sub-nav">
+            <li class="nav-item"><a class="nav-link" href="#">掃除</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">洗濯</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">料理</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">片付け</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+        <li><a href="#">インテリア</a>
+          <ul class="main-sub-nav">
+            <li class="nav-item"><a class="nav-link" href="#">掃除</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">洗濯</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">料理</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">片付け</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+        <li><a href="#">収納</a>
+          <ul class="main-sub-nav">
+            <li class="nav-item"><a class="nav-link" href="#">掃除</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">洗濯</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">料理</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">片付け</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+        <li><a href="#">動画</a>
+          <ul class="main-sub-nav">
+            <li class="nav-item"><a class="nav-link" href="#">掃除</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">洗濯</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">料理</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">片付け</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+        <li><a href="#">新カテゴリ</a>
+          <ul class="main-sub-nav">
+            <li class="nav-item"><a class="nav-link" href="#">掃除</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">洗濯</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">料理</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">片付け</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+        <li><a href="#">新カテゴリ</a>
+          <ul class="main-sub-nav">
+            <li class="nav-item"><a class="nav-link" href="#">掃除</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">洗濯</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">料理</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">片付け</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+        <li><a href="#">新カテゴリ</a>
+          <ul class="main-sub-nav">
+            <li class="nav-item"><a class="nav-link" href="#">掃除</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">洗濯</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">料理</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">片付け</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+        <li><a href="#">タグ</a>
+          <ul class="main-sub-nav">
+            <li class="nav-item nav-item-inline"><a class="nav-link" href="#">#掃除, 
+</a></li>
+            <li class="nav-item nav-item-inline"><a class="nav-link" href="#">#洗濯, </a></li>
+            <li class="nav-item nav-item-inline"><a class="nav-link" href="#">#料理, </a></li>
+            <li class="nav-item nav-item-inline"><a class="nav-link" href="#">#片付け, </a></li>
+            <li class="nav-item nav-item-inline"><a class="nav-link" href="#">#窓拭き, </a></li>
+            <li class="nav-item nav-item-inline"><a class="nav-link" href="#">#大掃除, </a></li>
+            <li class="nav-item nav-item-inline"><a class="nav-link" href="#">##アイロン, </a></li>
+            <li class="nav-item nav-item-inline"><a class="nav-link" href="#">#自家製, </a></li>
+            <li class="nav-item nav-item-inline"><a class="nav-link" href="#">#時短</a></li>
+          </ul>
+        </li>
+        <li><button type="button" href="#" class="btn btn-default link-btn main-list-btn">一覧をみる</button></li>
+      </ul>
+
+      <article class="pickup">
+        <h2>Pick up</h2>
+        <span class="subtitle-translate">ピックアップ</span>
+        <div class="section-wrapper">
+          
+          <section>
+            <img class="section-img section-img-mobile" src="imgs/section-img.png" alt="section-img">
+            <img class="section-img section-img-desktop" src="imgs/section-img-1.png" alt="section-img">
+            <div class="section-caption">
+              <span class="section-caption-number">2020.00.00 - Category</span>
+              <h3>投稿タイトルが入ります</h3>
+              <p>文書のレイアウトを決める際、テキストの入る部分はべた塗り実際の出来上がりに近いフォント</p>
+            </div>
+          </section>
+          
+          <section>
+            <img class="section-img section-img-mobile" src="imgs/section-img.png" alt="section-img">
+            <img class="section-img section-img-desktop" src="imgs/section-img-2.png" alt="section-img">
+            <div class="section-caption">
+              <span class="section-caption-number">2020.00.00 - Category</span>
+              <h3>投稿タイトルが入ります</h3>
+              <p>文書のレイアウトを決める際、テキストの入る部分はべた塗り実際の出来上がりに近いフォント</p>
+            </div>
+          </section>
+          
+          <section>
+            <img class="section-img section-img-mobile" src="imgs/section-img.png" alt="section-img">
+            <img class="section-img section-img-desktop" src="imgs/section-img-3.png" alt="section-img">
+            <div class="section-caption">
+              <span class="section-caption-number">2020.00.00 - Category</span>
+              <h3>投稿タイトルが入ります</h3>
+              <p>文書のレイアウトを決める際、テキストの入る部分はべた塗り実際の出来上がりに近いフォント</p>
+            </div>
+          </section>
+        </div>
+        
+        <button type="button" href="#" class="btn btn-default link-btn">ピックアップ記事をもっとみる</button>
+      </article>
+
+      <article class="latest">
+        <h2>Latest</h2>
+        <span class="subtitle-translate">最新記事</span>
+        <div class="section-wrapper">
+        
+          <section>
+            <img class="section-img section-img-mobile" src="imgs/section-img.png" alt="section-img">
+            <img class="section-img section-img-desktop" src="imgs/section-img-4.png" alt="section-img">
+            <div class="section-caption">
+              <span class="section-caption-number">2020.00.00 - Category</span>
+              <h3>投稿タイトルが入ります</h3>
+              <p>文書のレイアウトを決める際、テキストの入る部分はべた塗り実際の出来上がりに近いフォント</p>
+            </div>
+          </section>
+          
+          <section>
+            <img class="section-img section-img-mobile" src="imgs/section-img.png" alt="section-img">
+            <img class="section-img section-img-desktop" src="imgs/section-img-5.png" alt="section-img">
+            <div class="section-caption">
+              <span class="section-caption-number">2020.00.00 - Category</span>
+              <h3>投稿タイトルが入ります</h3>
+              <p>文書のレイアウトを決める際、テキストの入る部分はべた塗り実際の出来上がりに近いフォント</p>
+            </div>
+          </section>
+          
+          <section>
+            <img class="section-img section-img-mobile" src="imgs/section-img.png" alt="section-img">
+            <img class="section-img section-img-desktop" src="imgs/section-img-6.png" alt="section-img">
+            <div class="section-caption">
+              <span class="section-caption-number">2020.00.00 - Category</span>
+              <h3>投稿タイトルが入ります</h3>
+              <p>文書のレイアウトを決める際、テキストの入る部分はべた塗り実際の出来上がりに近いフォント</p>
+            </div>
+          </section>
+          
+          <section>
+            <img class="section-img section-img-mobile" src="imgs/section-img.png" alt="section-img">
+            <img class="section-img section-img-desktop" src="imgs/section-img-7.png" alt="section-img">
+            <div class="section-caption">
+              <span class="section-caption-number">2020.00.00 - Category</span>
+              <h3>投稿タイトルが入ります</h3>
+              <p>文書のレイアウトを決める際、テキストの入る部分はべた塗り実際の出来上がりに近いフォント</p>
+            </div>
+          </section>
+          
+          <section>
+            <img class="section-img section-img-mobile" src="imgs/section-img.png" alt="section-img">
+            <img class="section-img section-img-desktop" src="imgs/section-img-8.png" alt="section-img">
+            <div class="section-caption">
+              <span class="section-caption-number">2020.00.00 - Category</span>
+              <h3>投稿タイトルが入ります</h3>
+              <p>文書のレイアウトを決める際、テキストの入る部分はべた塗り実際の出来上がりに近いフォント</p>
+            </div>
+          </section>
+          
+          <section>
+            <img class="section-img section-img-mobile" src="imgs/section-img.png" alt="section-img">
+            <img class="section-img section-img-desktop" src="imgs/section-img-9.png" alt="section-img">
+            <div class="section-caption">
+              <span class="section-caption-number">2020.00.00 - Category</span>
+              <h3>投稿タイトルが入ります</h3>
+              <p>文書のレイアウトを決める際、テキストの入る部分はべた塗り実際の出来上がりに近いフォント</p>
+            </div>
+          </section>
+        </div>
+        
+        <button type="button" href="#" class="btn btn-default link-btn">最新記事をもっとみる</button>
+      </article>
+
+      <article class="ranking">
+        <h2>Ranking</h2>
+        <span class="subtitle-translate">ランキング</span>
+        <div class="section-wrapper">
+          
+          <section>
+            <img class="section-img section-img-mobile" src="imgs/section-img.png" alt="section-img">
+            <img class="section-img section-img-desktop" src="imgs/section-img-10.png" alt="section-img">
+            <div class="section-caption">
+              <span class="section-caption-number">2020.00.00 - Category</span>
+              <h3>投稿タイトルが入ります</h3>
+              <p>文書のレイアウトを決める際、テキストの入る部分はべた塗り実際の出来上がりに近いフォント</p>
+            </div>
+          </section>
+          
+          <section>
+            <img class="section-img section-img-mobile" src="imgs/section-img.png" alt="section-img">
+            <img class="section-img section-img-desktop" src="imgs/section-img-11.png" alt="section-img">
+            <div class="section-caption">
+              <span class="section-caption-number">2020.00.00 - Category</span>
+              <h3>投稿タイトルが入ります</h3>
+              <p>文書のレイアウトを決める際、テキストの入る部分はべた塗り実際の出来上がりに近いフォント</p>
+            </div>
+          </section>
+          
+          <section>
+            <img class="section-img section-img-mobile" src="imgs/section-img.png" alt="section-img">
+            <img class="section-img section-img-desktop" src="imgs/section-img-12.png" alt="section-img">
+            <div class="section-caption">
+              <span class="section-caption-number">2020.00.00 - Category</span>
+              <h3>投稿タイトルが入ります</h3>
+              <p>文書のレイアウトを決める際、テキストの入る部分はべた塗り実際の出来上がりに近いフォント</p>
+            </div>
+          </section>
+        </div>
+        
+        <button type="button" href="#" class="btn btn-default link-btn">ランキングをもっとみる</button>
+      </article>
+
+      <article class="feature">
+        <div class="feature-small">728x90</div>
+        <h2>Feature</h2>
+        <span class="subtitle-translate">特集</span>
+        <div class="feature-big-cntnr">
+          <div class="feature-big"></div>
+          <div class="feature-big"></div>
+          <div class="feature-big"></div>
+          <div class="feature-big"></div>
+        </div>
+        <div class="feature-small">728x90</div>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-wrap-1">
+        <div class="footer-wrap-inner">
+          <a class="footer-logo" href="#">
+            <img src="imgs/footer-logo.png" alt="Logo">
+          </a>
+          <span class="description">サイトのディスクリプションが入ります。</span>
+        </div>
+        <div class="socials">
+          <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-wrap-2">
+          <div class="footer-row">
+            <a href="#">利用規約</a>
+            <a href="#">運営会社</a>
+          </div>
+          <div class="footer-row">
+            <a href="#">プライバシーポリシー</a>
+            <a href="#">このサイトについて</a>
+          </div>
+          <div class="footer-row">
+            <a href="#">お問い合わせ</a>
+          </div>
+      </div>
+      <span class="copyright">&copy; 2019 onnela.tv</span>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
