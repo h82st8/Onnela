@@ -718,6 +718,11 @@ footer {
     margin-right: 0;
   }
 
+  header,
+  main {
+    padding: 0 10px;
+  }
+
   .navbar-header .btn-search {
     border: none;
   }
